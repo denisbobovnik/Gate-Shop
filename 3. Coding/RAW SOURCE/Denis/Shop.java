@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Shop {
 
-	Collection<InputtedOffer> inputtedOffersShop;
+	//Collection<InputtedOffer> inputtedOffersShop;
 	private int shopID;
 	private string name;
 	private string shopURL;

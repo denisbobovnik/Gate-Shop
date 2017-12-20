@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Product {
 
-	Collection<InputtedOffer> inputtedOffersProduct;
+	//Collection<InputtedOffer> inputtedOffersProduct;
 	private int productID;
 	private string name;
 	private string description;
