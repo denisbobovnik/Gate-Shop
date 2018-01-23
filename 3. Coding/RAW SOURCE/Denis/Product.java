@@ -8,14 +8,22 @@ public class Product {
 	private string description;
 	private string preview;
 
+	public Product(){
+		
+	}
+	
+	public Product(int productID, String name, String description, String preview){
+		super();
+		this.productID=productID;
+		this.name=name;
+		this.description=description;
+		this.preview=preview;
+	}
+
 	public int getProductID() {
 		return this.productID;
 	}
 
-	/**
-	 * 
-	 * @param productID
-	 */
 	public void setProductID(int productID) {
 		this.productID = productID;
 	}
@@ -24,10 +32,6 @@ public class Product {
 		return this.name;
 	}
 
-	/**
-	 * 
-	 * @param name
-	 */
 	public void setName(string name) {
 		this.name = name;
 	}
@@ -36,10 +40,6 @@ public class Product {
 		return this.description;
 	}
 
-	/**
-	 * 
-	 * @param description
-	 */
 	public void setDescription(string description) {
 		this.description = description;
 	}
@@ -48,10 +48,6 @@ public class Product {
 		return this.preview;
 	}
 
-	/**
-	 * 
-	 * @param preview
-	 */
 	public void setPreview(string preview) {
 		this.preview = preview;
 	}
